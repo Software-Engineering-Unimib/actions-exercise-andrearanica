@@ -18,6 +18,11 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+        permissions:
+            contents: writes
+            pull-requests: write
+            repository-projects: write
+        
 
     steps:
     - uses: actions/checkout@v4
