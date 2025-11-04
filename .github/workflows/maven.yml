@@ -8,6 +8,8 @@
 
 name: Java CI with Maven
 
+permissions: write all
+
 on:
   push:
     branches: [ master ]
@@ -15,7 +17,6 @@ on:
     branches: [ master ]
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
